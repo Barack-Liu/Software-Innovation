@@ -19,8 +19,8 @@ NodeJs 10.x<br>
 | ---- | :--: |
 | ZZM  | Monitor Module，查询某个用户是否存在的接口，然后Monitor监控该接口，然后测量其respond time。 |
 | LJQ  | Monitor Module。 |
-| GHL  | 用户在注册和登录过程中，提供一个API，返回注册成功与否的信息，以便Monitor去监控这个API。|
-| LHY  | 完成CI/CD在Travis CI上的部署，注意一下Travis CI是否能够返回workflow执行到了哪个阶段。注意一下Travis CI的部署位置。 |
+| GHL  | 用户在注册和登录过程中，提供一个API，返回注册成功与否的信息，以便Monitor去监控这个API。CI/CD在Travis CI上的部署.|
+| LHY  | CI/CD在Travis CI上的部署，注意一下Travis CI是否能够返回workflow执行到了哪个阶段。注意一下Travis CI的部署位置。 |
 
 
 # What is DevOps
