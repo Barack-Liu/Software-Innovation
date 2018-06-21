@@ -1,6 +1,19 @@
 # Project Goal
 Write a simplest application to go through the DevOps flow.<br>
 
+# Execution Method
+## Environment
+Ubuntu 16.x<br>
+python 3.x<br>
+MongoDB 2.6.x<br>
+NodeJs 10.x<br>
+
+## Command
+1.cd finance_web && npm install    This process is to install the neccessary modules. It's only needed at the first execution.<br>
+2.cd finance_spider/ && ./start.sh    This process is to craw the news. The news data will be save into a collection "news" in the mongoDB database "newsSpider". When users log in, another collection "users" will be created in the database "newsSpider".<br>
+3.cd finance_web && npm start    This process is to start the local server.<br>
+4.browse on http://localhost:3000/   Now the website demo should function well.<br>
+
 # What is DevOps
 DevOps is a term used to refer to a set of practices that emphasize the collaboration and communication of both software developers and information technology (IT) professionals while automating the process of software delivery and infrastructure changes. <br>
 It aims at establishing a culture and environment where building, testing, and releasing software can happen rapidly, frequently, and more reliably.<br>
