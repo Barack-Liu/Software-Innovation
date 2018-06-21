@@ -1,0 +1,25 @@
+language: node_js
+node_js: stable
+
+install:
+  - npm install
+  - pip install pymongo
+  - apt install python3
+
+script:
+  - npm start
+
+after_script:
+  - cd ./Demo Image
+  - git init
+  - git config user.name "BarackO"
+  - git config user.email "yanghongliu2013@outlook.com"
+  - git add .
+  - git commit -m "Update docs"
+  - git push --force --quiet "https://${GithubToken}@${GH_REF}" master:master
+  
+env:
+ global:
+   - GH_REF: github.com/BarackO/Software-Innovation.git
+
+
