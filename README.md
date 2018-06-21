@@ -14,6 +14,15 @@ NodeJs 10.x<br>
 3.cd finance_web && npm start    This process is to start the local server.<br>
 4.browse on http://localhost:3000/   Now the website demo should function well.<br>
 
+# Task Allocation
+| Name | Task |
+| ---- | :--: |
+| ZZM  | Monitor Module，查询某个用户是否存在的接口，然后Monitor监控该接口，然后测量其respond time。 |
+| LJQ  | Monitor Module。 |
+| GHL  | 用户在注册和登录过程中，提供一个API，返回注册成功与否的信息，以便Monitor去监控这个API。|
+| LHY  | 完成CI/CD在Travis CI上的部署，注意一下Travis CI是否能够返回workflow执行到了哪个阶段。注意一下Travis CI的部署位置。 |
+
+
 # What is DevOps
 DevOps is a term used to refer to a set of practices that emphasize the collaboration and communication of both software developers and information technology (IT) professionals while automating the process of software delivery and infrastructure changes. <br>
 It aims at establishing a culture and environment where building, testing, and releasing software can happen rapidly, frequently, and more reliably.<br>
