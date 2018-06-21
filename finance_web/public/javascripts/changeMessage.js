@@ -1,7 +1,3 @@
-/**
- * Created by 泰佑 on 2017/5/23.
- */
-
 //设置显示的位置
 function setLocation() {
     const window_width = window.innerWidth;

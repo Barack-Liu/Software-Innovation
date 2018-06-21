@@ -1,7 +1,3 @@
-/**
- * Created by 泰佑 on 2017/5/24.
- */
-
 //设置显示哪些news_type
 function set_which_show() {
     const window_width = window.innerWidth;

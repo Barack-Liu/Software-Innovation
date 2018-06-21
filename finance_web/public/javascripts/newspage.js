@@ -1,7 +1,3 @@
-/**
- * Created by 泰佑 on 2017/5/19.
- */
-
 let news_id;
 let atPC = true;
 let email;
