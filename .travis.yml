@@ -15,7 +15,7 @@ after_script:
   - git config user.name "BarackO"
   - git config user.email "yanghongliu2013@outlook.com"
   - git add .
-  - git commit -m "Update docs"
+  - git commit -m "Update demo image"
   - git push --force --quiet "https://${GithubToken}@${GH_REF}" master:master
   
 env:
