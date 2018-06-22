@@ -22,6 +22,15 @@ NodeJs 10.x<br>
 | GHL  | 用户在注册和登录过程中，提供一个API，返回注册成功与否的信息，以便Monitor去监控这个API。CI/CD在Travis CI上的部署.|
 | LHY  | CI/CD在Travis CI上的部署，注意一下Travis CI是否能够返回workflow执行到了哪个阶段。注意一下Travis CI的部署位置。 |
 
+# Build Process & Deployment
+## Build Process
+1.用Github账号登录Travis CI， https://travis-ci.org/ <br>
+2.在Legacy Services Integration中勾选要集成的Github公开Repo。 <br>
+3.运行脚本在.travis.yml中，之后一旦该repo上有新的push，就可以脚本运行的结果。 <br>
+
+## Deployment
+Travis CI中关于部署到服务器的说明。
+https://docs.travis-ci.com/user/deployment/
 
 # What is DevOps
 DevOps is a term used to refer to a set of practices that emphasize the collaboration and communication of both software developers and information technology (IT) professionals while automating the process of software delivery and infrastructure changes. <br>
