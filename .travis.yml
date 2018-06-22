@@ -4,8 +4,8 @@ sudo: false
 
 install:
   - npm install
-  - apt install python3
-  - apt-get install mongodb
+  # - apt install python3
+  # - apt-get install mongodb
   
 
 script:
