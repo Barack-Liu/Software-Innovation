@@ -11,7 +11,7 @@ install:
 script:
   # - cd finance_spider
   # - . start.sh
-  - cd ../finance_web 
+  - cd ./finance_web 
   - npm start
 
   
