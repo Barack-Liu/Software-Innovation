@@ -1,16 +1,16 @@
 language: node_js
 node_js: stable
-sudo: false
+sudo: required
 
 install:
   - npm install
-  - python3 -m pip install Scrapy
+  # - python3 -m pip install Scrapy
 
   
 
 script:
-  - cd finance_spider
-  - . start.sh
+  # - cd finance_spider
+  # - . start.sh
   - cd ../finance_web 
   - npm start
 
