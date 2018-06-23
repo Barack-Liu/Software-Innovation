@@ -29,7 +29,7 @@ NodeJs 10.x<br>
 3.运行脚本在.travis.yml中，之后一旦该repo上有新的push，就可以脚本运行的结果。 <br>
 
 ## Deployment
-Travis CI中关于部署到服务器的说明。
+Travis CI中关于部署到服务器的说明。<br>
 https://docs.travis-ci.com/user/deployment/
 
 # What is DevOps
