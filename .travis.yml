@@ -1,13 +1,17 @@
 language: node_js
-node_js: stable
 sudo: required
+node_js: stable
+python: 
+  - "2.7"
 
 services:
   - mongodb
 
 install:
+  - cd finance_web
   - npm install
-  # - python3 -m pip install Scrapy
+  - cd ../finance_spider
+  - pip install -r requiremnets.txt
 
   
 
