@@ -12,6 +12,7 @@ install:
   - npm install
   - cd ../finance_spider
   - sudo pip install -r requiremnets.txt
+  - cd ..
 
   
 
