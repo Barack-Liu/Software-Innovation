@@ -2,7 +2,7 @@ language: node_js
 sudo: required
 node_js: stable
 python: 
-  - "3.4"
+  - "2.7"
 
 services:
   - mongodb
@@ -22,5 +22,6 @@ script:
   - sh start.sh
   - sleep 20
   - sh stop.sh
+
   - cd ../finance_web 
   - npm start
