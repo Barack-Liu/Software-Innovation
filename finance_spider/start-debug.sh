@@ -6,4 +6,6 @@
 #scrapy crawl cnstock -o result.json >/dev/null 2>&1 &
 #scrapy crawl sohu -o result.json >/dev/null 2>&1 &
 
+echo "====================in start-debug=================="
 scrapy crawl sohu -o result.json
+echo "====================out start-debug=================="
