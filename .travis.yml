@@ -13,7 +13,8 @@ install:
 
 script:
   - cd finance_spider
-  - ./start.sh
-  - cd ./finance_web 
+  - sh start.sh
+  - sleep 20
+  - sh stop.sh
+  - cd ../finance_web 
   - npm start
-
