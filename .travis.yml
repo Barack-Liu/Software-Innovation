@@ -12,7 +12,7 @@ install:
   - npm install
   - cd ../finance_spider
   - sudo pip install -r requiremnets.txt
-  # - sudo pip install pyopenssl --user --upgrade
+  - sudo pip install pyopenssl --upgrade
   - cd ..
 
   

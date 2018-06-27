@@ -45,6 +45,10 @@ router.post('/getUserName',async(ctx,next)=>{
 });
 
 router.post('/getUser',async(ctx,next)=>{
+    var res = ctx.res;
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Credentials', 'true');
+
     const email = ctx.request.body.email || '';
     console.log('email: ' + email);
     let user = await db.getUserName(email);
