@@ -3,8 +3,10 @@ sudo: required
 node_js: stable
 python:
 - '2.7'
+
 services:
 - mongodb
+
 install:
 - cd finance_web
 - npm install
@@ -12,6 +14,7 @@ install:
 - sudo pip install -r requiremnets.txt
 - sudo pip install pyopenssl --upgrade
 - cd ..
+
 script:
 - cd finance_spider
 - sh start.sh
@@ -22,8 +25,10 @@ script:
 - npm start &
 - sleep 20
 - npm stop
+
 deploy:
-- sshpass -p "dplsPublic12" ssh -o StrictHostKeyChecking=no zzm@218.193.183.164 'bash -s' < deploy.sh &
+  provider: script
+  script: deploy.sh sshpass -p "dplsPublic12" ssh -o StrictHostKeyChecking=no zzm@218.193.183.164 'bash -s' < deploy.sh &
 
 env:
   global:

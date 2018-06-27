@@ -1,8 +1,1 @@
-cd ~/Works/Software-Innovation/finance_spider/
-sudo pip install -r requiremnets.txt
-sh stop.sh
-bash start.sh
-cd ../finance_web
-npm install
-npm stop
-npm start &
+sshpass -p "dplsPublic12" ssh -o StrictHostKeyChecking=no zzm@218.193.183.164 'bash -s' < remote-deploy.sh &
