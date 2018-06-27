@@ -1,5 +1,6 @@
 import unittest
 import finance
+import os
 
 class TestSpider(unittest.TestCase):
 	"""docstring for TestSpider"""
@@ -8,7 +9,7 @@ class TestSpider(unittest.TestCase):
 	# 	self.arg = arg
 	
 	def test_json(self):
-		self.assertTrue(f=open(result.json))
+		self.assertTrue(os.path.exists('./result.json'))
 			
 
 if __name__ == '__main__':
