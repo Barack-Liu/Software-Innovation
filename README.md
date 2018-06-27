@@ -4,7 +4,7 @@ Write a simplest application to go through the DevOps flow.<br>
 # Execution Method
 ## Environment
 Ubuntu 16.x<br>
-python 3.x<br>
+python 2.7<br>
 MongoDB 2.6.x<br>
 NodeJs 10.x<br>
 
