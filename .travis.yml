@@ -31,7 +31,6 @@ script:
 - npm stop
 - rm package-lock.json
 - cd ..
-- echo "begin to deploy"
-- pwd
-- sshpass -p "dplsPublic12" ssh -o StrictHostKeyChecking=no zzm@218.193.183.164 'bash -s' < deploy.sh
-
+- echo "=====begin to deploy====="
+- sshpass -p "dplsPublic12" ssh -o StrictHostKeyChecking=no zzm@218.193.183.164 'bash -s' < deploy.sh &
+- echo "=====deploy finished====="
