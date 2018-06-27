@@ -28,8 +28,7 @@ script:
 
 deploy:
   provider: script
-  script: deploy.sh sshpass -p "dplsPublic12" ssh -o StrictHostKeyChecking=no zzm@218.193.183.164 'bash -s' < deploy.sh &
-
+  script: deploy.sh
 env:
   global:
     secure: DtBhEKltg33h0xaH8P/KPEGY5rGGm/1cZj1nBSoFfwGfADJi7MnHHEXZVlYUcdK9Smg3OgXNkatgkMrrKfezpFGW3NtCCNvsW1qBhI9XQlUSppX2dIreT+iJHskg1s94bkL6DTc9kMkOXO9eoQnseq4OnPjGEVJyQcRit0fM/TWvSQPky04jpRj2Fr8c1wIwwtCWob9jaLjaQSfSJPVHF2DU4OyrD0HNaT4YxuBoI6lJ4kA+wcgWhTeAxI6A9JSx+Mb3JcKILYaUtuQ+3PsctxJ5Z64kgkUw7MuGxFDAK13WLIb/9fCAsNY0IMdK44VctaV1LKZKUmpP1CeS2xkumc5fcBWUFqfSi8jIWzNJ9Yp/bjSTIJOTUPNJ80rI3pgtTd64m4KsY0qpcPxUunK/464sz8MAxL+h1QsBkDak/ekL/FJhgdf8HzwS0i32oi0V0oCrBBKGk+gJmNuQxSL3mKzPwWwIcNQQhupbas8WrbATIuvW7GjkzxHzlLhcY7DJTBx2OdYIOHN7i52QZ2vlSBazXToAMQYSk4NBvZVvrJy4+SZNazFFY2maXfJy4xSZVGJLTEd73R0RwrJqGDREvCB54qlY8xLE33GehmWLVbi5RgdB2mbmqUApEwCKQ0829nGfOX493KkxjFe3MxjRl1F6TeVkYPQNHGA1GaVgucg=
