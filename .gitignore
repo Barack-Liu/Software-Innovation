@@ -1,4 +1,5 @@
 *.pyc
 finance_web/node_modules
 finance_web/npm_debug.log
+finance_spider/result.json
 *.swp
