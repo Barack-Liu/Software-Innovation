@@ -13,7 +13,6 @@ install:
   - cd ../finance_spider
   - sudo pip install -r requiremnets.txt
   - sudo pip install pyopenssl --upgrade
-  - python -m unittest test
   - cd ..
 
   
@@ -23,6 +22,7 @@ script:
   - sh start.sh
   - sleep 20
   - sh stop.sh
+  - python -m unittest test
   - cd ../finance_web 
   - npm start &
   - sleep 20
