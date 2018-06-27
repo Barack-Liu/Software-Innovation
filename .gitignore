@@ -1,0 +1,3 @@
+*.pyc
+finance_web/bin
+finance_web/node_modules

@@ -2,6 +2,9 @@ language: node_js
 node_js: stable
 sudo: required
 
+services:
+  - mongodb
+
 install:
   - npm install
   # - python3 -m pip install Scrapy
@@ -9,14 +12,8 @@ install:
   
 
 script:
-  # - cd finance_spider
-  # - . start.sh
+  - cd finance_spider
+  - ./start.sh
   - cd ./finance_web 
   - npm start
-
-  
-env:
- global:
-   - GH_REF: github.com/BarackO/Software-Innovation.git
-
 
