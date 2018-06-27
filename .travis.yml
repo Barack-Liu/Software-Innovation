@@ -13,7 +13,7 @@ install:
   - cd ../finance_spider
   - sudo pip install -r requiremnets.txt
   - sudo pip install pyopenssl --upgrade
-  - python test.py
+  - python -m unittest test
   - cd ..
 
   
