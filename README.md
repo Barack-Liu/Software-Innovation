@@ -29,8 +29,12 @@ NodeJs 10.x<br>
 3.运行脚本在.travis.yml中，之后一旦该repo上有新的push，就可以脚本运行的结果。 <br>
 
 ## Deployment
-Travis CI中关于部署到服务器的说明。<br>
-https://docs.travis-ci.com/user/deployment/
+Travis CI中部署<br>
+https://docs.travis-ci.com/user/deployment/ <br>
+服务器部署<br>
+IP&Port 218.193.183.164:3000 <br>
+用户名 zzm <br>
+密码 dplsPublic12 <br>
 
 # What is DevOps
 DevOps is a term used to refer to a set of practices that emphasize the collaboration and communication of both software developers and information technology (IT) professionals while automating the process of software delivery and infrastructure changes. <br>
