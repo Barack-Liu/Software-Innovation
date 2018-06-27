@@ -1,7 +1,7 @@
 cd ~/Works/Software-Innovation/finance_spider/
 sudo pip install -r requiremnets.txt
 sh stop.sh
-bash start.sh
+bash start-debug.sh
 cd ../finance_web
 npm install
 npm stop
