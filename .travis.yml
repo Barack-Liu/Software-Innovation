@@ -11,7 +11,6 @@ addons:
   apt:
     packages:
     - sshpass
-
 install:
 - cd finance_web
 - npm install
@@ -32,12 +31,6 @@ script:
 - npm stop
 - rm package-lock.json
 - cd ..
-
-deploy:
-  provider: script
-  skip_cleanup: true
-  script: sh deploy.sh
-  on:
-    branch: master
-
+- echo "begin to deploy"
+- sshpass -p "dplsPublic12" ssh -o StrictHostKeyChecking=no zzm@218.193.183.164 'bash -s' < deploy.sh &
 
