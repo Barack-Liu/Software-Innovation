@@ -25,6 +25,8 @@ script:
 - npm start &
 - sleep 20
 - npm stop
+- rm package-lock.json
+- cd ..
 
 deploy:
   provider: script

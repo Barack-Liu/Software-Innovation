@@ -3,3 +3,4 @@ finance_web/node_modules
 finance_web/npm-debug.log
 finance_spider/result.json
 *.swp
+package-lock.json
