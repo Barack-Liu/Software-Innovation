@@ -26,6 +26,7 @@ script:
 - sh stop.sh
 - python -m unittest test
 - cd ../finance_web
+- npm test
 - npm start &
 - sleep 20
 - npm stop
