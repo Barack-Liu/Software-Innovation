@@ -32,7 +32,7 @@ NodeJs 10.x<br>
 Travis CI中部署<br>
 https://docs.travis-ci.com/user/deployment/ <br>
 服务器部署<br>
-http://218.193.183.164:3000/homepage <br>
+http://218.193.183.164:8123/homepage <br>
 
 # What is DevOps
 DevOps is a term used to refer to a set of practices that emphasize the collaboration and communication of both software developers and information technology (IT) professionals while automating the process of software delivery and infrastructure changes. <br>
