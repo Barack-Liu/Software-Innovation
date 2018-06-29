@@ -34,4 +34,5 @@ script:
 - cd ..
 - echo "=====begin to deploy====="
 - sshpass -p "dplsPublic12" ssh -o StrictHostKeyChecking=no zzm@218.193.183.164 'bash -s' < deploy.sh &
+- sleep 60
 - echo "=====deploy finished====="
