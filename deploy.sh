@@ -1,3 +1,5 @@
+cd ~/Works/Software-Innovation/
+git pull
 cd ~/Works/Software-Innovation/finance_spider/
 sudo pip install -r requiremnets.txt
 sh stop.sh
