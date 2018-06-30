@@ -44,6 +44,10 @@ http://218.193.183.164:3000/ <br>
 服务器状态<br>
 http://218.193.183.164:8123/ <br>
 
+## Improvement
+1. Use Docker to deploy the server <br>
+2. Use Prometheus to monitor
+
 # What is DevOps
 DevOps is a term used to refer to a set of practices that emphasize the collaboration and communication of both software developers and information technology (IT) professionals while automating the process of software delivery and infrastructure changes. <br>
 It aims at establishing a culture and environment where building, testing, and releasing software can happen rapidly, frequently, and more reliably.<br>
