@@ -23,6 +23,14 @@ NodeJs 10.x<br>
 | LHY  | CI/CD在Travis CI上的部署，注意一下Travis CI是否能够返回workflow执行到了哪个阶段。注意一下Travis CI的部署位置。 |
 
 # Build Process & Deployment
+## Crawl 6 websites
+新浪财经-sina <br>
+同花顺财经-10jqka <br>
+腾讯财经-qq <br>
+中国证券网-cnstock <br>
+搜狐财经-sohu <br>
+东方财富网-eastmoney<br>
+
 ## Build Process
 1.用Github账号登录Travis CI， https://travis-ci.org/ <br>
 2.在Legacy Services Integration中勾选要集成的Github公开Repo。 <br>
@@ -35,6 +43,10 @@ https://docs.travis-ci.com/user/deployment/ <br>
 http://218.193.183.164:3000/ <br>
 服务器状态<br>
 http://218.193.183.164:8123/ <br>
+
+## Improvement
+1. Use Docker to deploy the server <br>
+2. Use Prometheus to monitor
 
 # What is DevOps
 DevOps is a term used to refer to a set of practices that emphasize the collaboration and communication of both software developers and information technology (IT) professionals while automating the process of software delivery and infrastructure changes. <br>
